@@ -7,7 +7,10 @@ import com.abc.survey.api.response.PatientResponse;
 import com.abc.survey.service.PatientService;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
+
 @Service
+@Transactional
 public class PatientServiceImp  implements PatientService {
 
     private final PatientRepository repository;

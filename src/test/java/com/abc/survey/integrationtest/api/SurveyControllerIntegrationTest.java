@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @AutoConfigureMockMvc
-public class SurveyControllerTest extends ContainersEnvironment {
+public class SurveyControllerIntegrationTest extends ContainersEnvironment {
 
     @Autowired
     private SurveyController surveyController;
