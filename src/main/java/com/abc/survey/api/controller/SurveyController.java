@@ -4,7 +4,6 @@ import com.abc.survey.api.request.SurveyRequest;
 import com.abc.survey.api.request.SurveyTakePartRequest;
 import com.abc.survey.api.response.SurveyResponse;
 import com.abc.survey.api.response.SurveyTakePartResponse;
-import com.abc.survey.model.Survey;
 import com.abc.survey.service.SurveyService;
 import com.abc.survey.service.SurveyTakePartService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,5 @@
 package com.abc.survey.service.imp;
 
-import com.abc.survey.api.request.PatientRequest;
 import com.abc.survey.api.request.SurveyRequest;
 import com.abc.survey.api.response.SurveyResponse;
 import com.abc.survey.model.Survey;

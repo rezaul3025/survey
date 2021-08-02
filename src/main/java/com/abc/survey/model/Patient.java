@@ -22,6 +22,4 @@ public class Patient {
 
     @OneToMany(mappedBy="patient", cascade=CascadeType.ALL)
     private Set<SurveyTakePart> surveyTakeParts;
-
-
 }
