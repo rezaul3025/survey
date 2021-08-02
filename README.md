@@ -6,7 +6,7 @@ Survey API implementation.
 * Maven
 * Spring boot
 * JPA
-* H2 - for end to end test
+* H2database- for end to end test
 * PostgreSQL - used as a testcontainers for integration test 
 * Junit 5
 * Springdoc(swagger) - for API documentation
