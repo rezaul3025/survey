@@ -45,9 +45,13 @@ $ mvn clean spring-boot:run
     ```
     /api/v1/survey/take-part
     ```
-* Run API and PostgreSQL as a service together using Docker-compose (Optional)
+* Run API and PostgreSQL as a microservice together using Docker-compose (Optional)
+    * Build the project
     ```
-    $ docker-compose up -d
+    $ mvn clean install
+    ```
+    ```
+    $ docker-compose up -d --build
     ```
     * Check service logs
     ```
